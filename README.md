@@ -23,7 +23,10 @@ and should be located in `/usr/bin/`.
 ## Building
 For building, a version of `g++` supporting the C++14 standard is required.
 
-Switch to the directory of the program you want to compile, and run `make`. The compiled binary will be placed in the  
+To build everything and place it in a new dictionary `dist`, run:  
+`./makeall.sh`
+
+Alternatively, to compile only one part, switch to the directory of the program you want to compile, and run `make`. The compiled binary will be placed in the  
 `./dist/Debug/GNU-Linux/` directory.
 
 ## Invoking
