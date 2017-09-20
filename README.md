@@ -23,6 +23,12 @@ and should be located in `/usr/bin/`.
 ## Building
 For building, a version of `g++` supporting the C++14 standard is required.
 
+In order to build the module for `iperf3` successfully, you need to:
+- download the RapidJSON library from here:  
+https://github.com/Tencent/rapidjson
+- Copy the `include/rapidjson` directory to the project files as:  
+`ProMoRIS_modIperf3/rapidjson`
+
 To build everything and place it in a new dictionary `dist`, run:  
 `./makeall.sh`
 
